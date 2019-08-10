@@ -1,5 +1,5 @@
 const d=document;
-// Your code goes here
+
 const navLinks=d.querySelector( " div > nav" );
 navLinks.addEventListener( 'click', (e) => {
     e.preventDefault();
