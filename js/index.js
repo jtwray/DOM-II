@@ -68,12 +68,12 @@ contentpick.addEventListener(
     });
     btn1.addEventListener('dblclick', (event) => {
         event.target.style = 'color:green; height:10%';
-        eventObject.stopPropagation();
+        event.stopPropagation();
     
      });
     
      mainNav2.addEventListener('dblclick', function(event) {
-        alert('Ow that hurt');
+        alert(`{{<form><input type="text" name="name"/></form>}}`);
     });
     
      paragraph3.addEventListener('mouseup', (event) => {
